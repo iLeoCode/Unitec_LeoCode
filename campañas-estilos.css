@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: #f5f6fa;
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    padding-top: 3rem;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .add-campaign {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .add-campaign input {
+    flex: 1;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid #dcdde1;
+    font-size: 1rem;
+  }
+  
+  .add-campaign button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .add-campaign button:hover {
+    background-color: #2980b9;
+  }
+  
+  .campaign-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .campaign-list > li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f0f3f5;
+    border-radius: 10px;
+  }
+  
+  .campaign-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .subtasks {
+    list-style: none;
+    padding-left: 1.5rem;
+    margin: 0;
+  }
+  
+  .subtasks li {
+    margin: 0.4rem 0;
+  }
+  
+  .clear-btn {
+    width: 100%;
+    padding: 0.7rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .clear-btn:hover {
+    background-color: #c0392b;
+  }
+  

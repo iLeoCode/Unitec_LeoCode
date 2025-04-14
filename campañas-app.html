@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campañas con Subtareas</title>
+  <link rel="stylesheet" href="campañas-estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main class="container">
+    <h1>🗂️ Campañas a Trabajar</h1>
+
+    <div class="add-campaign">
+      <input type="text" id="newCampaignInput" placeholder="Agregar nueva campaña..." />
+      <button onclick="addCampaign()">Agregar</button>
+    </div>
+
+    <ul id="campaignList" class="campaign-list">
+      <!-- Campañas se cargan automáticamente desde JS -->
+    </ul>
+
+    <button class="clear-btn" onclick="clearCompleted()">🧹 Limpiar campañas completadas</button>
+  </main>
+
+  <script src="campañas-logica.js"></script>
+</body>
+</html>
